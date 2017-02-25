@@ -190,7 +190,7 @@ a {
   top: 0;
   position: relative;
   overflow: hidden;
-  border: 4px solid #372a24; }
+  border: 20px solid #372a24; }
   @media (max-height: 850px) {
     .sceneContainer {
       top: -50px; } }
@@ -261,6 +261,12 @@ a {
 @media (min-width: 800px) {
   .sceneContainerSmall {
     display: none; } }
+
+#bkg {
+  margin-left: -20px; }
+
+#mbkg {
+  margin-left: -20px; }
 
 .pseudoModalHolder {
   height: 100%;
@@ -530,6 +536,9 @@ a {
   width: 100%;
   opacity: 0; }
   .barHolder:hover {
+    opacity: .9;
+    transition: opacity .5s; }
+  .barHolder:focus {
     opacity: .9;
     transition: opacity .5s; }
 

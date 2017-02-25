@@ -92,6 +92,18 @@ angular.module('port')
 
 });
 angular.module('port')
+    .directive('web1', function() {
+        return {
+            restrict: 'E',
+            templateUrl: './app/directives/web1/web1.html',
+            link: function(scope, element, attributes) {
+                
+
+            }
+};
+
+});
+angular.module('port')
     .directive('scene', function() {
         return {
             restrict: 'E',
@@ -105,18 +117,6 @@ angular.module('port')
               scope.parallax = new Parallax(sceneMedium);
               scope.sceneSmall = document.getElementById('sceneSmall');
               scope.parallax = new Parallax(sceneSmall);
-
-            }
-};
-
-});
-angular.module('port')
-    .directive('web1', function() {
-        return {
-            restrict: 'E',
-            templateUrl: './app/directives/web1/web1.html',
-            link: function(scope, element, attributes) {
-                
 
             }
 };

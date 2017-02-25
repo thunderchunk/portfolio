@@ -54,6 +54,10 @@
     opacity: .9;
     transition: opacity .5s ;
   }
+  &:focus{
+    opacity: .9;
+    transition: opacity .5s ;
+  }
 }
 
 .topBar{
