@@ -1,0 +1,73 @@
+<div class="contentContainer">
+  <div class="closer" ng-click="(pseudoModal =!pseudoModal); remove()">
+    <div class="closerBar1"></div>
+    <div class="closerBar2"></div>
+  </div>
+  <h3 class="contentHeadline centerTxt">Roster Rooster Web App</h3>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12">
+      </div>
+      
+        <div class="contentImgLeft" id="web4a"></div>
+        <!-- <a class="contentP" href="http://www.backroadbeer.com">backroadbeer.com</a> -->
+        <p class="contentP">This web app was a student project. The app allows for an employer to schedule a team of people with different time requirements and post those schedules to users. There are two layers of login: admin and user. The admin controls the scheduling for a company, and the users can see when they are scheduled and request time off.
+        </p>
+        <p class="contentP">
+            Unhappy with the calendar plugins I found for Node, and the ready-made templates  for AngularJS on Github too unfriendly for mobile, I made my own.  Using the basic Javascript time object, I built a calendar that would dynamically generate a grid with the corresponding days on the correct column.  
+        </p>
+        <div class="contentImgRight" id="web4b"></div>
+        <p class="contentP">
+          I then built a database in SQL with five tables, each corresponding to an employer and the employee's time requirements.  Each employee can enter their available hours, a weekly minimum and maximum, and stop and start times for each day of the week.
+        </p>
+        <p class="contentP">
+            The admin can then go into their interface, edit employee data, schedule a new day by populating the schedule with a bar representing an employee's available work time, edit the bar to fit their needs, save, and publish the day.  
+        </p>
+        <p class="contentP">
+            I spent far less time working on the front end of this project and almost all the time on the logic. This app is almost 60% raw Javascript. I had to learn the Javascript time object inside and out, as well as all of its strange and archaic parsing errors when talking to AngularJs and SQL, and how to generate pictures from numbers.
+        </p>
+        <p class="contentP">
+            Initially, I studied the D3 library, learning how to manipulate data using their standards only to find it insufficient for the task at hand.  If you venture too far outside of a bar graph, a pie chart, or a relationship graph, you need a working knowledge of calculus, which I lack.  
+        </p>
+        <p class="contentP">
+            It only works on Android and Chrome at the moment, and I plan on finishing the app to a production ready product on Ionic.  I'm making it mobile to accommodate small business owners with large part-time employee bases.  I disabled the login and username so anyone who's interested in playing with <a href="http://www.roster-rooster.com">Roster-Rooster</a> can if they want to.  It's all hooked up to a database, so enjoy.  
+        <p class="contentP">
+            I used AngularJS, Node, JQuery, Javascript, SCSS, HTML, Gulp, Ui-Router, and SQL </a>
+        </p>
+      </div>
+    </div>
+    <div class="container-fluid">
+
+        <div class="row">
+          <h4 class="contentP centerTxt">
+            Examples of the app's functionality below.
+          </h4>
+          <div class="col-md-6">
+              <div class="contentExampleImage" id="web4c"></div>
+              <p class="contentP centerTxt">This view is the admin day scheduler.  You can see some employees added to the schedule.  The bars represent their stop and start times, and the grayed-out areas represent when they are unavailable for scheduling.</p>
+          </div>
+          <div class="col-md-6">
+              <div class="contentExampleImage" id="web4d"></div>
+              <p class="contentP centerTxt">This is a view of the employee management section, admin view.  This allows the employer to get into each employee's account and update information.  </p>
+          </div>
+        </div>
+        
+        <div class="row">
+          
+          <div class="col-md-6">
+              <div class="contentExampleImage" id="web4e"></div>
+              <p class="contentP centerTxt">This is what you see when you click on an employee’s individual day information.  Each field is editable and updates the database upon saving.
+</p>
+          </div>
+          
+          <div class="col-md-6">
+              <div class="contentExampleImage" id="web4f"></div>
+              <p class="contentP centerTxt">This is a new employee with blank fields. You can edit start and stop times for a single day, just weekdays, or the entire week.
+
+
+        </div>
+  
+    </div>
+
+
+</div>

@@ -1,0 +1,72 @@
+<div class="contentContainer">
+  <div class="closer" ng-click="(pseudoModal =!pseudoModal); remove()">
+    <div class="closerBar1"></div>
+    <div class="closerBar2"></div>
+  </div>
+  <h3 class="contentHeadline centerTxt">DUN GEN Web App</h3>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12">
+      </div>
+      
+        <div class="contentImgLeft" id="web3a"></div>
+        <!-- <a class="contentP" href="http://www.backroadbeer.com">backroadbeer.com</a> -->
+        <p class="contentP">This web app was a group student project. I was chiefly responsible for web design, styling, illustration, and logic. With two weeks to work on the project, our group bit off a very ambitious task. We decided to create an app that would take in every single rule of the Pathfinder (D&D 3.5) RPG system and create a fully editable character sheet.  
+        </p>
+        <p class="contentP">
+            With hundreds of pages of single spaced rules, and a variable count of something in the tens of thousands, we decided to limit ourselves to character creation for a single class:  Barbarian.  If any of you have ever played the game, you'd recognize barbarian as one of the most annoying classes to chose from, as its chief ability is to buff one stat that has a snowball effect on every other stat.  A base number that increases, that also increases dozens of other stats is something that computers can do very well, but which involves multiple tables and math for a casual gamer.  
+        </p>
+        <div class="contentImgRight" id="web3b"></div>
+        <p class="contentP">
+          I made the artwork for every asset, styled the page, made alternative color palettes based on the different classes, and designed the page layout to incorporate a truly massive amount of information. 
+        </p>
+        <p class="contentP">
+            In this Angular app, there are over 60 directives, all of which tie into only four views.  This modular approach enabled the app to be broken up into tight individual tasks.  It took four of us working every day, night, and weekend to complete just the Barbarian character.
+        </p>
+        <p class="contentP">
+            We had more planning meetings than any other group by far, landing on Mongoose for the database.  This allowed us to make only 8 tables with foreign keys instead of the estimated 40+ that SQL would require for the project.  
+        </p>
+        <p class="contentP">
+            We met our deadline and then some, adding features like an inventory store, dice rollers, and character portrait functionality.  
+        </p>
+        <p class="contentP">
+            Because it was more of a proof of concept than a finished app, I left off the link at top.  If you'd like to play with it, you can click <a href="http://104.131.191.126:3000/#/">here</a>.  Enter "test" as a username and "test" as a password, and enjoy breaking the app (it's easy to do if you don't pick Barbarian).  We learned a ton about workflow, division of labor, and managing MVP (minimum viable product) making this project, and some of us plan on coming back to it to complete a full version at some point.
+        <p class="contentP">
+            We used AngularJS, Node, JQuery, Javascript, SCSS, HTML, Gulp, Ui-Router, and Mongoose </a>
+        </p>
+      </div>
+    </div>
+    <div class="container-fluid">
+
+        <div class="row">
+          <h4 class="contentP centerTxt">
+            Examples of the app's functionality below.
+          </h4>
+          <div class="col-md-6">
+              <div class="contentExampleImage" id="web3c"></div>
+              <p class="contentP centerTxt">This is the main character sheet with the most viewed information front and center. The user clicks on the different tabs to reveal the different sections of data as needed. At the top right are the dice rollers, with every possible variation.</p>
+          </div>
+          <div class="col-md-6">
+              <div class="contentExampleImage" id="web3d"></div>
+              <p class="contentP centerTxt">This is the item purchasing section.  Because this is just a test character, it has no gold listed.  New characters have the starting gold they're allowed in the book, and the app allows you to purchase an item, write one in, or take one for free if the game allows.  </p>
+          </div>
+        </div>
+        
+        <div class="row">
+          
+          <div class="col-md-6">
+              <div class="contentExampleImage" id="web3e"></div>
+              <p class="contentP centerTxt">This is part of the character selection screen.  We have all the main races in the standard player's handbook.  I made all the little illustrations and did the logic for which are hidden and shown, and what pieces of information are vital to each.  Just this part alone has 800+ possible outcomes.</p>
+          </div>
+          
+          <div class="col-md-6">
+              <div class="contentExampleImage" id="web3f"></div>
+              <p class="contentP centerTxt">This section is the class selector, where your character can pick their job.  When you pick a job, it limits or opens up several different options, which we had to account for.    </p>
+          </div>
+
+        </div>
+  
+    </div>
+
+
+</div>

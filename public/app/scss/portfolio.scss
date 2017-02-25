@@ -1,0 +1,556 @@
+.mediumPortPiece{
+  height: 400px;
+  width: 550px;
+  background: $blk;
+  position: relative;
+  margin: 0 auto 20px;
+  box-shadow: 10px 10px 5px lightgrey;
+  @media(max-width: 1200px){
+    height: 350px;
+    width: 475px;
+  }
+  @media(max-width: 550px){
+    height: 221px;
+    width: 300px;
+  }
+}
+
+.smallPortPiece{
+  height: 350px;
+  width: 475px;
+  position: relative;
+  margin: 0 auto 20px;
+  box-shadow: 10px 10px 5px lightgrey;
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: contain;
+  @media(max-width: 1450px){
+    height: 295px;
+    width: 400px;
+  }
+  @media(max-width: 1200px){
+    height: 258px;
+    width: 350px;
+  }
+  @media(max-width: 1060px){
+    height: 239px;
+    width: 325px;
+  }
+  @media(max-width: 991px){
+    height: 295px;
+    width: 400px;
+  }
+  @media(max-width: 700px){
+    height: 221px;
+    width: 300px;
+  }
+}
+
+.barHolder{
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  &:hover{
+    opacity: .9;
+    transition: opacity .5s ;
+  }
+}
+
+.topBar{
+  height: 50px;
+  width: 100%;
+  background: $wht;
+  @media(max-width: 550px){
+    height: 30px;
+  }
+}
+
+.bottomBar{
+  height: 150px;
+  width: 100%;
+  background: $wht;
+  position: absolute;
+  bottom: 0;
+  @media(max-width: 550px){
+  display: none;
+  }
+}
+
+.bottomBarSmall{
+  height: 100px;
+  width: 100%;
+  background: $wht;
+  position: absolute;
+  bottom: 0;
+}
+
+.barTitle{
+  padding: 12px 0 0 20px;
+  @media(max-width: 1200px){
+    padding-top: 14px;
+    font-size: 1.2em;
+  }
+  @media(max-width: 550px){
+    padding-top: 10px;
+    padding-right: 0;
+    font-size: .7em;
+  }
+}
+
+.smallBarTitle{
+    padding: 14px 0 0 10px;
+    font-size: 1.2em;
+  @media(max-width: 550px){
+    padding-top: 10px;
+    padding-right: 0;
+    font-size: .7em;
+  }
+}
+
+.barP{
+  font-weight: .8em;
+  padding: 10px 0 0 30px;
+  @media(max-width: 1200px){
+    padding-top: 14px;
+    font-size: 1em;
+  }
+  @media(max-width: 550px){
+    padding-top: 10px;
+    padding-right: 0;
+    font-size: .5em;
+  }
+}
+
+.smallBarP{
+  font-weight: .6em;
+  line-height: normal;
+  padding: 5px 5px 0 30px;
+  @media(max-width: 1200px){
+    padding-top: 14px;
+    font-size: 1em;
+  }
+  @media(max-width: 550px){
+    padding-top: 10px;
+    padding-right: 0;
+    font-size: .5em;
+  }
+}
+
+.barTitleClickHere{
+  font-size: .8em;
+  color: grey;
+  padding: 20px 0 0 50px;
+  cursor: pointer;
+  &:hover{
+    color: $red;
+  }
+  @media(max-width: 550px){
+    padding-top: 10px;
+    padding-right: 0;
+    font-size: .6em;
+  }
+}
+
+
+.portHeadline{
+  margin: 0 auto;
+}
+// WEB SPLASH IMAGES
+#web1splash{
+  background-image: url("../images/web1.png");
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: contain;
+}
+
+#web2splash{
+  background-image: url("../images/bash1.png");
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: contain;
+}
+
+#web3splash{
+  background-image: url("../images/dungen1.png");
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: contain;
+}
+
+#web4splash{
+  background-image: url("../images/rr1.png");
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: contain;
+}
+
+#web5splash{
+  background-image: url("../images/web5.png");
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: contain;
+}
+
+
+// LOGO SPLASH IMAGES
+
+#logo1Splash{
+  background-image: url("../images/logo1.png");
+
+}
+
+#logo2Splash{
+  background-image: url("../images/logo2.png");
+
+}
+
+#logo3Splash{
+  background-image: url("../images/logo3.png");
+
+}
+
+#logo4Splash{
+  background-image: url("../images/logo4.png");
+
+}
+
+#logo5Splash{
+  background-image: url("../images/logo5.png");
+
+}
+
+#logo6Splash{
+  background-image: url("../images/logo6.png");
+
+}
+
+#logo7Splash{
+  background-image: url("../images/logo7.png");
+
+}
+
+#logo8Splash{
+  background-image: url("../images/logo8.png");
+
+}
+
+#logo9Splash{
+  background-image: url("../images/logo9.png");
+
+}
+
+#logo10Splash{
+  background-image: url("../images/logo10.png");
+
+}
+
+#logo11Splash{
+  background-image: url("../images/logo11.png");
+
+}
+
+#logo12Splash{
+  background-image: url("../images/logo12.png");
+
+}
+
+#apparel1splash{
+  background-image: url("../images/apparel1.png");
+}
+
+#apparel2splash{
+  background-image: url("../images/apparel2.png");
+}
+
+#apparel3splash{
+  background-image: url("../images/apparel3.png");
+}
+
+#apparel4splash{
+  background-image: url("../images/apparel4.png");
+}
+
+#apparel5splash{
+  background-image: url("../images/apparel5.png");
+}
+
+#apparel6splash{
+  background-image: url("../images/apparel6.png");
+}
+
+#apparel7splash{
+  background-image: url("../images/apparel7.png");
+}
+
+#apparel8splash{
+  background-image: url("../images/apparel8.png");
+}
+
+#apparel9splash{
+  background-image: url("../images/apparel9.png");
+}
+
+#apparel10splash{
+  background-image: url("../images/apparel10.png");
+}
+
+#apparel11splash{
+  background-image: url("../images/apparel11.png");
+}
+
+#apparel12splash{
+  background-image: url("../images/apparel12.png");
+}
+
+#apparel13splash{
+  background-image: url("../images/apparel13.png");
+}
+
+#apparel14splash{
+  background-image: url("../images/apparel14.png");
+}
+
+#apparel15splash{
+  background-image: url("../images/apparel15.png");
+}
+#apparel16splash{
+  background-image: url("../images/apparel16.png");
+}
+#apparel17splash{
+  background-image: url("../images/apparel17.png");
+}
+#apparel18splash{
+  background-image: url("../images/apparel18.png");
+}
+#apparel19splash{
+  background-image: url("../images/apparel19.png");
+}
+#apparel20splash{
+  background-image: url("../images/apparel20.png");
+}
+#apparel21splash{
+  background-image: url("../images/apparel21.png");
+}
+
+#illustration1splash{
+    background-image: url("../images/illustration1.png");
+}
+#illustration2splash{
+    background-image: url("../images/illustration2.png");
+}
+#illustration3splash{
+    background-image: url("../images/illustration3.png");
+}
+#illustration4splash{
+    background-image: url("../images/illustration4.png");
+}
+#illustration5splash{
+    background-image: url("../images/illustration5.png");
+}
+#illustration6splash{
+    background-image: url("../images/illustration6.png");
+}
+#illustration7splash{
+    background-image: url("../images/illustration7.png");
+}
+#illustration8splash{
+    background-image: url("../images/illustration8.png");
+}
+#illustration9splash{
+    background-image: url("../images/illustration9.png");
+}
+#illustration10splash{
+    background-image: url("../images/illustration10.png");
+}
+#illustration11splash{
+    background-image: url("../images/illustration11.png");
+}
+#illustration12splash{
+    background-image: url("../images/illustration12.png");
+}
+#illustration13splash{
+    background-image: url("../images/illustration13.png");
+}
+#illustration14splash{
+    background-image: url("../images/illustration14.png");
+}
+#illustration15splash{
+    background-image: url("../images/illustration15.png");
+}
+#illustration16splash{
+    background-image: url("../images/illustration16.png");
+}
+#illustration17splash{
+    background-image: url("../images/illustration17.png");
+}
+#illustration18splash{
+    background-image: url("../images/illustration18.png");
+}
+#illustration19splash{
+    background-image: url("../images/illustration19.png");
+}
+#illustration20splash{
+    background-image: url("../images/illustration20.png");
+}
+#illustration21splash{
+    background-image: url("../images/illustration21.png");
+}
+#print1splash{
+    background-image: url("../images/print1.png");
+}
+#print2splash{
+    background-image: url("../images/print2.png");
+}
+#print3splash{
+    background-image: url("../images/print3.png");
+}
+#print4splash{
+    background-image: url("../images/print4.png");
+}
+#print5splash{
+    background-image: url("../images/print5.png");
+}
+#print6splash{
+    background-image: url("../images/print6.png");
+}
+#print7splash{
+    background-image: url("../images/print7.png");
+}
+#print8splash{
+    background-image: url("../images/print8.png");
+}
+#print9splash{
+    background-image: url("../images/print9.png");
+}
+
+#web1a{
+  background-image: url("../images/brb2.png");
+}
+#web1b{
+  background-image: url("../images/brb1.png");
+}
+
+#web1c{
+  background-image: url("../images/brb3.png");
+}
+
+#web1d{
+  background-image: url("../images/brb4.png");
+
+}
+
+#web1e{
+  background-image: url("../images/brb5.png");
+  background-color: #fa9d26;
+}
+
+#web1f{
+  background-image: url("../images/brb6.png");
+      background-color: #522b1c;
+}
+
+#web2a{
+    background-image: url("../images/bash1.png");
+}
+
+#web2b{
+    background-image: url("../images/bash2.png");
+}
+
+#web2c{
+    background-image: url("../images/bash3.png");
+}
+
+#web2d{
+    background-image: url("../images/bash4.png");
+}
+
+#web2e{
+    background-image: url("../images/bash5.png");
+}
+
+#web2f{
+    background-image: url("../images/bash6.png");
+}
+
+#web5a{
+    background-image: url("../images/bruiser1.png");
+      box-shadow: 10px 10px 5px lightgrey;
+}
+
+#web5b{
+    background-image: url("../images/bruiser2.png");
+      box-shadow: 10px 10px 5px lightgrey;
+}
+
+#web5c{
+    background-image: url("../images/bruiser3.png");
+      box-shadow: 10px 10px 5px lightgrey;
+}
+
+#web5d{
+    background-image: url("../images/bruiser4.png");
+      box-shadow: 10px 10px 5px lightgrey;
+}
+
+#web5e{
+    background-image: url("../images/bruiser5.png");
+      box-shadow: 10px 10px 5px lightgrey;
+}
+
+#web5f{
+    background-image: url("../images/bruiser6.png");
+      box-shadow: 10px 10px 5px lightgrey;
+}
+#web3a{
+    background-image: url("../images/dungen1.png");
+}
+
+#web3b{
+    background-image: url("../images/dungen2.png");
+}
+
+#web3c{
+    background-image: url("../images/dungen3.png");
+}
+
+#web3d{
+    background-image: url("../images/dungen4.png");
+}
+
+#web3e{
+    background-image: url("../images/dungen5.png");
+}
+
+#web3f{
+    background-image: url("../images/dungen6.png");
+}
+#web4a{
+    background-image: url("../images/rr1.png");
+      box-shadow: 10px 10px 5px lightgrey;
+}
+
+#web4b{
+    background-image: url("../images/rr2.png");
+      box-shadow: 10px 10px 5px lightgrey;
+}
+
+#web4c{
+    background-image: url("../images/rr3.png");
+      box-shadow: 10px 10px 5px lightgrey;
+}
+
+#web4d{
+    background-image: url("../images/rr4.png");
+      box-shadow: 10px 10px 5px lightgrey;
+}
+
+#web4e{
+    background-image: url("../images/rr5.png");
+      box-shadow: 10px 10px 5px lightgrey;
+}
+
+#web4f{
+    background-image: url("../images/rr6.png");
+      box-shadow: 10px 10px 5px lightgrey;
+}

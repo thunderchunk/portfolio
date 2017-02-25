@@ -1,0 +1,38 @@
+#selfie{
+  background-image: url("../images/lucas1.png");
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: contain;
+}
+.aboutColumn{
+  width: 80%;
+  margin: 0 auto;
+}
+.aboutHeadline{
+  margin: 0 0 10px 20px;
+}
+
+.skillzList{
+  width: 750px;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  @media(max-width: 760px){
+    width: 150px;
+    flex-direction: column;
+  }
+}
+
+.skillz1{
+  width: 175px;
+}
+
+.skillzHeadline{
+  margin: 0 0 10px 0;
+  font-size: 1.25em;
+}
+
+.resumeLinkContainer{
+  height: 200px;
+  width: 200px;
+}

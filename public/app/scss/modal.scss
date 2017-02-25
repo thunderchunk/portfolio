@@ -1,0 +1,151 @@
+.pseudoModalHolder{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+
+}
+
+.pseudoModalBkg{
+  height: 100%;
+  width: 100%;
+  background: $blk;
+  opacity: .5;
+  cursor: pointer;
+  position: fixed;
+}
+
+.pseudoModal{
+  min-height: 300px;
+  width: 80%;
+  background: $wht;
+  position: absolute;
+  opacity: 1;
+  top: 150px;
+  left: 50%;
+  margin-left: -40%;
+  padding: 30px 0 30px 0;
+  cursor: default;
+  
+}
+
+.contentContainer{
+  height: 100%;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.closer{
+  height: 30px;
+  width: 30px;
+  float: right;
+  position: relative;
+  &:hover{
+    cursor: pointer;
+  }
+}
+
+.closerBar1{
+  height: 5px;
+  width: 30px;
+  -ms-transform: rotate(45deg); /* IE 9 */
+  -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+  transform: rotate(45deg);
+  background: $red;
+  position: absolute;
+  top: 11px;
+}
+.closerBar2{
+  height: 5px;
+  width: 30px;
+  -ms-transform: rotate(-45deg); /* IE 9 */
+  -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
+  transform: rotate(-45deg);
+  background: $red;
+  position: absolute;
+  top: 11px;
+}
+
+.contentImgLeft{
+  height: 360px;
+  width: 500px;
+  float: left;
+  margin: 0 30px 30px 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center; 
+  @media(max-width: 1000px){
+    float: none;
+    margin: 0 auto 30px;
+  }
+  @media(max-width: 700px){
+    height: 200px;
+    width: 300px;
+    float: none;
+    margin: 0 auto 30px;
+  }
+}
+
+.contentImgRight{
+  height: 360px;
+  width: 500px;
+  float: right;
+  margin: 0 0 30px 30px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center; 
+  @media(max-width: 1000px){
+    float: none;
+    margin: 0 auto 30px;
+  }
+  @media(max-width: 700px){
+    height: 200px;
+    width: 300px;
+    float: none;
+    margin: 0 auto 30px;
+  }
+}
+
+.contentImgCenter{
+  height: 360px;
+  width: 500px;
+  margin: 0 auto 30px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center; 
+  @media(max-width: 700px){
+    height: 200px;
+    width: 300px;
+    float: none;
+    margin: 0 auto 30px;
+  }
+}
+
+.contentExampleImage{
+  height: 250px;
+  width: 350px;
+  background: $blk;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  background: #1a180c;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center; 
+  @media(max-width: 700px){
+    height: 200px;
+    width: 300px;
+    float: none;
+    
+  }
+}
+
+.contentHeadline{
+  margin-bottom: 30px;
+}
+
+.contentP{
+  line-height: normal;
+  padding: 0 0 20px 0;
+}

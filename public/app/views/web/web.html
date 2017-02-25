@@ -1,0 +1,130 @@
+<div class="bkg">
+  
+
+<nav></nav>
+<div class="navSpacer"></div>
+<div class="container-fluid">
+  
+  <div class="row">
+    
+    <!-- BREWERY SITE -->
+    <div class="col-md-6">
+      <div class="mediumPortPiece " id="web1splash">
+        <div class="barHolder flexColumn">
+          <div class="topBar flexRow">
+            <h3 class="barTitle">Back Road Brewery Website</h3>
+            <p class="barTitleClickHere" ng-click="(add('web1')); (pseudoModal =!pseudoModal)"> click to see more </p>
+          </div>
+          <div class="bottomBar">
+              <h3 class="barTitle">Technology</h3>
+              <p class="barP">AngularJS, Node, JQuery, Javascript, SCSS, HTML, Bootstrap, Ui-Router, Gulp, Google Maps API</p>
+              <h3 class="barTitle">Duties</h3>
+              <p class="barP">Corporate Identity, Packaging, Web Design / development</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- BREWERY SITE -->
+    <div class="col-md-6">
+      <div class="mediumPortPiece " id="web5splash">
+        <div class="barHolder flexColumn">
+          <div class="topBar flexRow">
+            <h3 class="barTitle">Bruiser Art Website</h3>
+            <p class="barTitleClickHere" ng-click="(add('web5')); (pseudoModal =!pseudoModal)"> click to see more </p>
+          </div>
+          <div class="bottomBar">
+              <h3 class="barTitle">Technology</h3>
+              <p class="barP">Shopify template, custom Javascript, HTML, CSS, JQuery, Stripe API</p>
+              <h3 class="barTitle">Duties</h3>
+              <p class="barP">Corporate Identity, Artwork, Web Design, Blog, Copy and Tecnhical Writing</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+
+  </div>
+  
+</div>
+<div class="container-fluid">
+  
+  <div class="row">
+    
+    <!-- DUN GEN SITE -->
+    <div class="col-md-6">
+      <div class="mediumPortPiece " id="web3splash">
+        <div class="barHolder flexColumn">
+          <div class="topBar flexRow">
+            <h3 class="barTitle">DUN GEN Web App</h3>
+            <p class="barTitleClickHere" ng-click="(add('web3')); (pseudoModal =!pseudoModal)"> click to see more </p>
+          </div>
+          <div class="bottomBar">
+              <h3 class="barTitle">Technology</h3>
+              <p class="barP">Mongoose, AngularJS, Node, JQuery, Javascript, SCSS, HTML, Ui-Router</p>
+              <h3 class="barTitle">Duties</h3>
+              <p class="barP">Front-end / graphic design</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- ROSTER ROOSTER SITE -->
+    <div class="col-md-6">
+      <div class="mediumPortPiece " id="web4splash">
+        <div class="barHolder flexColumn">
+          <div class="topBar flexRow">
+            <h3 class="barTitle">Roster Rooster Student Project</h3>
+            <p class="barTitleClickHere" ng-click="(add('web4')); (pseudoModal =!pseudoModal)"> click to see more </p>
+          </div>
+          <div class="bottomBar">
+              <h3 class="barTitle">Technology</h3>
+              <p class="barP">SQL, AngularJS, Node, JQuery, Javascript, SCSS, HTML, Bootstrap, Ui-Router, Google Maps API</p>
+              <h3 class="barTitle">Duties</h3>
+              <p class="barP">Web design / development</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+    <!-- SMOKEHOUSE SITE -->
+    <div class="col-md-6">
+      <div class="mediumPortPiece " id="web2splash">
+        <div class="barHolder flexColumn">
+          <div class="topBar flexRow">
+            <h3 class="barTitle">Back Alley Smokehouse</h3>
+            <p class="barTitleClickHere" ng-click="(add('web2')); (pseudoModal =!pseudoModal)"> click to see more </p>
+          </div>
+          <div class="bottomBar">
+              <h3 class="barTitle">Technology</h3>
+              <p class="barP">AngularJS, Node, JQuery, Javascript, SCSS, HTML, Bootstrap, Ui-Router, Gulp, Google Maps API</p>
+              <h3 class="barTitle">Duties</h3>
+              <p class="barP">Web design / development</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- start modal -->
+  <div class="pseudoModalHolder" ng-show="pseudoModal">
+    <div class="pseudoModalBkg" ng-click="(pseudoModal =!pseudoModal); remove()"></div>
+    <div class="pseudoModal">  
+      <web1 ng-show="vars.web1"></web1>
+      <web2 ng-show="vars.web2"></web2>
+      <web3 ng-show="vars.web3"></web3>
+      <web4 ng-show="vars.web4"></web4>
+      <web5 ng-show="vars.web5"></web5>
+    </div>
+  </div>
+  <!-- end modal -->
+
+</div>
