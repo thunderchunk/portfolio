@@ -1,6 +1,6 @@
 // INITILIZE SERVICE
 // ============================================================
-angular.module("port").service("bashService", function($http) {
+angular.module("port").service("portService", function($http) {
 
   // CRUD FUNCTIONS
   // ============================================================

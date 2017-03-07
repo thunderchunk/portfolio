@@ -170,3 +170,45 @@
 #mbkg{
   margin-left: -20px;
 }
+
+// preloader
+
+.preloader{
+  padding: 50px;
+  background: $brown;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 21;
+  animation: darken 2s;
+}
+
+@keyframes darken{
+  0%{background: $blk}
+  100%{background: $brown}
+}
+
+.iaLogo {
+    background-image: url("../images/iaLogo.svg");
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    animation: grow 5s linear infinite;
+    margin: 100px auto ;
+}
+
+@keyframes grow {
+    0% { transform: scale(1); }
+    100% { transform: scale(2); }
+}
+
+.spinnerLogo{
+  
+  height: 50px;
+  width: 75px;
+  margin: 75px auto;
+  position: absolute;
+  z-index: 24;
+}

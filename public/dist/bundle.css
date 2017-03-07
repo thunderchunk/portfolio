@@ -268,6 +268,44 @@ a {
 #mbkg {
   margin-left: -20px; }
 
+.preloader {
+  padding: 50px;
+  background: #372a24;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 21;
+  animation: darken 2s; }
+
+@keyframes darken {
+  0% {
+    background: #020a17; }
+  100% {
+    background: #372a24; } }
+
+.iaLogo {
+  background-image: url("../images/iaLogo.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+  animation: grow 5s linear infinite;
+  margin: 100px auto; }
+
+@keyframes grow {
+  0% {
+    transform: scale(1); }
+  100% {
+    transform: scale(2); } }
+
+.spinnerLogo {
+  height: 50px;
+  width: 75px;
+  margin: 75px auto;
+  position: absolute;
+  z-index: 24; }
+
 .pseudoModalHolder {
   height: 100%;
   width: 100%;
@@ -647,19 +685,22 @@ a {
   background-image: url("../images/dungen1.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain; }
+  background-size: contain;
+  background-color: white; }
 
 #web4splash {
   background-image: url("../images/rr1.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain; }
+  background-size: contain;
+  background-color: white; }
 
 #web5splash {
   background-image: url("../images/web5.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain; }
+  background-size: contain;
+  background-color: white; }
 
 #logo1Splash {
   background-image: url("../images/logo1.png"); }
