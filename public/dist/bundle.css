@@ -702,6 +702,13 @@ a {
   background-size: contain;
   background-color: white; }
 
+#web6splash {
+  background-image: url("../images/aikido1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-color: white; }
+
 #logo1Splash {
   background-image: url("../images/logo1.png"); }
 
@@ -993,6 +1000,31 @@ a {
 
 #web4f {
   background-image: url("../images/rr6.png");
+  box-shadow: 10px 10px 5px lightgrey; }
+
+#web6a {
+  background-image: url("../images/aikido1.png");
+  box-shadow: 10px 10px 5px lightgrey; }
+
+#web6b {
+  background-image: url("../images/aikido2.png");
+  box-shadow: 10px 10px 5px lightgrey; }
+
+#web6c {
+  background-image: url("../images/aikido3.png");
+  box-shadow: 10px 10px 5px lightgrey; }
+
+#web6d {
+  background-image: url("../images/aikido4.png");
+  box-shadow: 10px 10px 5px lightgrey;
+  background-color: white; }
+
+#web6e {
+  background-image: url("../images/aikido5.png");
+  box-shadow: 10px 10px 5px lightgrey; }
+
+#web6f {
+  background-image: url("../images/aikido6.png");
   box-shadow: 10px 10px 5px lightgrey; }
 
 #selfie {

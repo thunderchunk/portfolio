@@ -13,7 +13,8 @@ angular.module("port").controller("web", function($scope) {
     web2: false,
     web3: false,
     web4: false,
-    web5: false
+    web5: false,
+    web6: false
   }
 
   

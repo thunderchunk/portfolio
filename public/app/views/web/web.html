@@ -3,9 +3,33 @@
 
 <nav></nav>
 <div class="navSpacer"></div>
+
+
+
+
+
+
+
 <div class="container-fluid">
   
   <div class="row">
+    <!-- AIKIDO SITE -->
+    <div class="col-md-6">
+      <div class="mediumPortPiece " id="web6splash">
+        <div class="barHolder flexColumn">
+          <div class="topBar flexRow">
+            <h3 class="barTitle">Prairie Aikikai Website</h3>
+            <p class="barTitleClickHere" ng-click="(add('web6')); (pseudoModal =!pseudoModal)"> click to see more </p>
+          </div>
+          <div class="bottomBar">
+              <h3 class="barTitle">Technology</h3>
+              <p class="barP">AngularJS, Node, JQuery, Bootstrap, Javascript, SCSS, HTML, UI-Router, Gulp, Google Maps API</p>
+              <h3 class="barTitle">Duties</h3>
+              <p class="barP">Corporate Identity, Artwork, Web Design, Copy and Tecnhical Writing</p>
+          </div>
+        </div>
+      </div>
+    </div>
     
     <!-- BREWERY SITE -->
     <div class="col-md-6">
@@ -25,29 +49,15 @@
       </div>
     </div>
     
-    <!-- BREWERY SITE -->
-    <div class="col-md-6">
-      <div class="mediumPortPiece " id="web5splash">
-        <div class="barHolder flexColumn">
-          <div class="topBar flexRow">
-            <h3 class="barTitle">Bruiser Art Website</h3>
-            <p class="barTitleClickHere" ng-click="(add('web5')); (pseudoModal =!pseudoModal)"> click to see more </p>
-          </div>
-          <div class="bottomBar">
-              <h3 class="barTitle">Technology</h3>
-              <p class="barP">Shopify template, custom Javascript, HTML, CSS, JQuery, Stripe API</p>
-              <h3 class="barTitle">Duties</h3>
-              <p class="barP">Corporate Identity, Artwork, Web Design, Blog, Copy and Tecnhical Writing</p>
-          </div>
-        </div>
-      </div>
-    </div>
+
     
 
 
   </div>
   
 </div>
+
+
 <div class="container-fluid">
   
   <div class="row">
@@ -91,12 +101,14 @@
   </div>
   
 </div>
-    <!-- SMOKEHOUSE SITE -->
+
     
-<!-- <div class="container-fluid">
+<div class="container-fluid">
   <div class="row">
 
-    <div class="col-md-6">
+
+    <!-- SMOKEHOUSE SITE -->
+    <!-- <div class="col-md-6">
       <div class="mediumPortPiece " id="web2splash">
         <div class="barHolder flexColumn">
           <div class="topBar flexRow">
@@ -111,9 +123,30 @@
           </div>
         </div>
       </div>
+    </div> -->
+    
+    
+    <!-- BRUISER SITE -->
+    <div class="col-md-6">
+      <div class="mediumPortPiece " id="web5splash">
+        <div class="barHolder flexColumn">
+          <div class="topBar flexRow">
+            <h3 class="barTitle">Bruiser Art Website</h3>
+            <p class="barTitleClickHere" ng-click="(add('web5')); (pseudoModal =!pseudoModal)"> click to see more </p>
+          </div>
+          <div class="bottomBar">
+              <h3 class="barTitle">Technology</h3>
+              <p class="barP">Shopify template, custom Javascript, HTML, CSS, JQuery, Stripe API</p>
+              <h3 class="barTitle">Duties</h3>
+              <p class="barP">Corporate Identity, Artwork, Web Design, Blog, Copy and Tecnhical Writing</p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-</div> -->
+</div>
+
+
 
   <!-- start modal -->
   <div class="pseudoModalHolder" ng-show="pseudoModal">
@@ -124,6 +157,7 @@
       <web3 ng-show="vars.web3"></web3>
       <web4 ng-show="vars.web4"></web4>
       <web5 ng-show="vars.web5"></web5>
+      <web6 ng-show="vars.web6"></web6>
     </div>
   </div>
   <!-- end modal -->

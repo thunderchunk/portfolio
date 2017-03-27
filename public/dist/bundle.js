@@ -74,24 +74,6 @@ angular.module("port").service("portService", ["$http", function($http) {
 
 }]);
 angular.module('port')
-    .directive('nav', function() {
-        return {
-            restrict: 'E',
-            templateUrl: './app/directives/nav/nav.html',
-            link: function(scope, element, attributes) {
-                
-              $("#smallLogo").on("click", function() {
-              $(".littleNavHolder").show(".littleNavHolder");
-              $("#littleNavContainer").hide("#littleNavContainer");
-              $(this).hide("#smallLogo");
-              });
-        
-
-            }
-};
-
-});
-angular.module('port')
     .directive('scene', function() {
         return {
             restrict: 'E',
@@ -105,6 +87,24 @@ angular.module('port')
               scope.parallax = new Parallax(sceneMedium);
               scope.sceneSmall = document.getElementById('sceneSmall');
               scope.parallax = new Parallax(sceneSmall);
+
+            }
+};
+
+});
+angular.module('port')
+    .directive('nav', function() {
+        return {
+            restrict: 'E',
+            templateUrl: './app/directives/nav/nav.html',
+            link: function(scope, element, attributes) {
+                
+              $("#smallLogo").on("click", function() {
+              $(".littleNavHolder").show(".littleNavHolder");
+              $("#littleNavContainer").hide("#littleNavContainer");
+              $(this).hide("#smallLogo");
+              });
+        
 
             }
 };
@@ -163,6 +163,18 @@ angular.module('port')
         return {
             restrict: 'E',
             templateUrl: './app/directives/web5/web5.html',
+            link: function(scope, element, attributes) {
+                
+
+            }
+};
+
+});
+angular.module('port')
+    .directive('web6', function() {
+        return {
+            restrict: 'E',
+            templateUrl: './app/directives/web6/web6.html',
             link: function(scope, element, attributes) {
                 
 
@@ -246,6 +258,16 @@ angular.module("port").controller("illustration", ["$scope", function($scope) {
 
 // INITILIZE CONTROLLER
 // ============================================================
+angular.module("port").controller("print", ["$scope", function($scope) {
+  // VARIABLES
+  // ============================================================
+  $scope.test = "web test"
+  // FUNCTIONS
+  // ============================================================
+}]);
+
+// INITILIZE CONTROLLER
+// ============================================================
 angular.module("port").controller("logos", ["$scope", function($scope) {
   // VARIABLES
   // ============================================================
@@ -278,16 +300,6 @@ angular.module("port").controller("logos", ["$scope", function($scope) {
 
 // INITILIZE CONTROLLER
 // ============================================================
-angular.module("port").controller("print", ["$scope", function($scope) {
-  // VARIABLES
-  // ============================================================
-  $scope.test = "web test"
-  // FUNCTIONS
-  // ============================================================
-}]);
-
-// INITILIZE CONTROLLER
-// ============================================================
 angular.module("port").controller("skills", ["$scope", function($scope) {
   // VARIABLES
   // ============================================================
@@ -311,7 +323,8 @@ angular.module("port").controller("web", ["$scope", function($scope) {
     web2: false,
     web3: false,
     web4: false,
-    web5: false
+    web5: false,
+    web6: false
   }
 
   
